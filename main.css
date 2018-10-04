@@ -1,8 +1,12 @@
 /* CSS Reset */
 
 .upperF{
-  height: 50vh;
+  height: 60vh;
   background-color: #030E1A;
+}
+
+.firstTitle{
+  font-size: 10em;
 }
 
 /* Reset CSS */
