@@ -3,6 +3,7 @@
 .amilogo{
   width: 0%;
   height: auto;
+  float: left;
 }
 
 .nodrag{
@@ -15,12 +16,12 @@
 .upperF{
   height: 60vh;
   background-color: #030E1A;
-  display: inline-block;
 }
 
 .firstTitle{
   font-size: 10em;
   color: white;
+  float: left;
 }
 
 /* Reset CSS */
