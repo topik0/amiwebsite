@@ -1,5 +1,10 @@
 /* CSS Reset */
 
+.amilogo{
+  width: 15vh;
+  height: 15vh;
+}
+
 .nodrag{
 -webkit-user-select: none;
 -moz-user-select: none;
