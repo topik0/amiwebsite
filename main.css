@@ -1,5 +1,12 @@
 /* CSS Reset */
 
+.nodrag{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
 .upperF{
   height: 60vh;
   background-color: #030E1A;
