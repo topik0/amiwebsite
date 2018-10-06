@@ -3,7 +3,7 @@
 .amilogo{
   width: 20%;
   height: auto;
-  float: left;
+  display: inline-block;
 }
 
 .nodrag{
@@ -21,7 +21,7 @@
 .firstTitle{
   font-size: 10em;
   color: white;
-  float: right;
+  display: inline-block;
 }
 
 /* Reset CSS */
