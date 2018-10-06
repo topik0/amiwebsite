@@ -4,6 +4,7 @@
   width: 20%;
   height: auto;
   display: inline-block;
+  vertical-align: center;
 }
 
 .nodrag{
@@ -22,6 +23,7 @@
   font-size: 10em;
   color: white;
   display: inline-block;
+  vertical-align: center;
 }
 
 /* Reset CSS */
