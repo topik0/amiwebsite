@@ -15,6 +15,13 @@
   user-select: none;
 }
 
+.upperF {
+    height: 60vh;
+    background-color: #030E1A;
+    display: flex;
+    align-items: center;
+}
+
 .firstTitle{
   font-size: 10em;
   color: white;
