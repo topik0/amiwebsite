@@ -110,8 +110,11 @@ table {
   padding-bottom: 1.3rem;
   text-decoration: none;
 }
+
 /* Start Laser Button */
+
 /* Basic Button Style */
+
 .laserBtn {
   box-sizing: border-box;
   appearance: none;
@@ -123,7 +126,7 @@ table {
   display: flex;
   align-self: center;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1;
   margin: 20px;
@@ -132,6 +135,7 @@ table {
   text-align: center;
   text-transform: uppercase;
 }
+
 .laserBtn:hover, .laserBtn:focus {
   color: #fff;
   outline: 0;
@@ -143,6 +147,7 @@ table {
   box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
   transition: all 150ms ease-in-out;
 }
+
 .vzb:hover {
   box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
 }
