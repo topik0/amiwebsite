@@ -4,6 +4,7 @@
 .nodecor{
 text-decoration: none;
 color: #ffffff;
+text-decoration-line: none;
 }
 .nodecor a:link {
     color: #ffffff;
