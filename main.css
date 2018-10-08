@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-}
-.nodecor{
-text-decoration: none;
-color: #ffffff;
-text-decoration-line: none;
-}
-.nodecor a:link {
-    color: #ffffff;
-}
-.nodecor a:visited {
-    color: #ffffff;
-}
-.nodecor a:hover {
-    color: #ffffff;
-}
-.nodecor a:active {
-    color: #ffffff;
-}
-
 .sbs{
   display: flex;
 }
@@ -98,6 +79,28 @@ li a{
 }
 .vzb:hover {
   box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
+}
+
+.nodecor{
+text-decoration: none;
+color: #ffffff;
+text-decoration-line: none;
+}
+
+.nodecor a:link {
+    color: #ffffff;
+}
+
+.nodecor a:visited {
+    color: #ffffff;
+}
+
+.nodecor a:hover {
+    color: #ffffff;
+}
+
+.nodecor a:active {
+    color: #ffffff;
 }
 /* End Laser Button */
 
