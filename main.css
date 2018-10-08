@@ -61,6 +61,12 @@ table {
   height: 57vh;
   background-color: green;
 }
+
+.footer{
+  height: 20vh;
+  background-color: orange;
+}
+
 .sbs{
   display: flex;
 }
