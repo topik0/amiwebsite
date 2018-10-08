@@ -17,13 +17,11 @@
 .upperF {
     height: 100vh;
     background-color: #030E1A;
-    display: flex;
-    align-items: center;
 	text-align: center;
 }
 
 .firstTitle{
-  font-size: 10em;
+  font-size: 50pt;
   color: #2962FF;
   vertical-align: middle;
   font-family: 'Source Sans Pro';
