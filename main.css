@@ -117,7 +117,7 @@ table {
   appearance: none;
   background-color: transparent;
   border: 2px solid #126de5;
-  border-radius: 0.6em;
+  border-radius: 2000em;
   color: #126de5;
   cursor: pointer;
   display: flex;
