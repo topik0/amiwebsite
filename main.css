@@ -1,6 +1,127 @@
-.upperF{
-  height: 50vh;
-  background-color: #030E1A;
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.upperF {
+  height: 100vh;
+  background-color: #1e1e1e;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li a{
+  text-decoration:none;
+  color:#ffffff;
+  padding:15px;
+  text-align:center;
+  display:block;
+}
+
+.amilogo{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.nodrag{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.firstTitle{
+  font-size: 50pt;
+  color: #efefef;
+  vertical-align: middle;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  padding-top: 2rem;
+  text-decoration: none;
+}
+/* Start Laser Button */
+/* Basic Button Style */
+.laserBtn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #126de5;
+  border-radius: 0.6em;
+  color: #126de5;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.laserBtn:hover, .laserBtn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.vzb {
+  border-color: #126de5;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
+  transition: all 150ms ease-in-out;
+}
+.vzb:hover {
+  box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
+}
+/* End Laser Button */
+
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 .firstTitle{
  color: white; 
