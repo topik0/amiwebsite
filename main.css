@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
+}
+.nodecor{
+text-decoration: none;
+color: #ffffff;
+}
+.nodecor a:link {
+    color: #ffffff;
+}
+.nodecor a:visited {
+    color: #ffffff;
+}
+.nodecor a:hover {
+    color: #ffffff;
+}
+.nodecor a:active {
+    color: #ffffff;
+}
+
 .sbs{
   display: flex;
 }
@@ -42,7 +60,7 @@ li a{
   vertical-align: middle;
   font-family: 'Muli', sans-serif;
   font-weight: 400;
-  padding-top: 2rem;
+  padding-top: 1.3rem;
   text-decoration: none;
 }
 /* Start Laser Button */
