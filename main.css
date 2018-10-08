@@ -123,3 +123,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.firstTitle{
+ color: white; 
+ font-size: 60px;
+}
