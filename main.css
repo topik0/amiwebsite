@@ -33,7 +33,6 @@
 padding-top: 2rem;
 }
 /* Start Laser Button */
-$zapblue: #126de5;
 /* Basic Button Style */
 .laserBtn {
   box-sizing: border-box;
@@ -41,7 +40,7 @@ $zapblue: #126de5;
   background-color: transparent;
   border: 2px solid $zapblue;
   border-radius: 0.6em;
-  color: $zapblue;
+  color: #126de5;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -62,13 +61,13 @@ font-family: 'Muli', sans-serif;
   }
 }
 .vzb {
-  border-color: $zapblue;
+  border-color: #126de5;
   color: #fff;
-  box-shadow: 0 0 40px 40px $zapblue inset, 0 0 0 0 $zapblue;
+  box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
   transition: all 150ms ease-in-out;
   
   &:hover {
-    box-shadow: 0 0 10px 0 $zapblue inset, 0 0 10px 4px $zapblue;
+    box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
   }
 }
 /* End Laser Button */
