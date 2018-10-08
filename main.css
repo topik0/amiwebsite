@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+.firstF{
+  height: 45vh;
+  background-color: red;
+}
+
+.secondF{
+  height: 45vh;
+  background-color: blue;
+}
+
+.thirdF{
+  height: 45vh;
+  background-color: green;
+}
 .sbs{
   display: flex;
 }
