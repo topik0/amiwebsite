@@ -1,7 +1,7 @@
 /invite* https://discordapp.com/oauth2/authorize?client_id=490852867171942410&scope=bot&permissions=2146958847
 :splat 301!
 
-/status* https://www.status.amidiscord.me
+/status* https://status.amidiscord.me
 :splat 301!
 
 /discord* https://discord.gg/9QjcccH
