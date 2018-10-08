@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
 .upperF {
-    height: 100vh;
-    background-color: #1e1e1e;
+  height: 100vh;
+  background-color: #1e1e1e;
 	text-align: center;
 	align-items: center;
 	vertical-align: middle;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+li a{
+  text-decoration:none;
+  color:#ffffff;
+  padding:15px;
+  text-align:center;
+  display:block;
 }
 
 .amilogo{
@@ -30,7 +38,7 @@
   vertical-align: middle;
   font-family: 'Muli', sans-serif;
   font-weight: 400;
-padding-top: 2rem;
+  padding-top: 2rem;
 }
 /* Start Laser Button */
 /* Basic Button Style */
