@@ -2,7 +2,7 @@
 
 .upperF {
     height: 100vh;
-    background-color: #030E1A;
+    background-color: linear-gradient(146deg, rgb(72, 82, 193), rgb(65, 132, 216) 52%, rgb(0, 176, 233));;
 	text-align: center;
 	align-items: center;
 	vertical-align: middle;
@@ -26,7 +26,7 @@
 
 .firstTitle{
   font-size: 50pt;
-  color: linear-gradient(146deg, rgb(72, 82, 193), rgb(65, 132, 216) 52%, rgb(0, 176, 233));
+  color: white;
   vertical-align: middle;
   font-family: 'Source Sans Pro';
   font-weight: 600;
