@@ -18,6 +18,8 @@
     height: 100vh;
     background-color: #030E1A;
 	text-align: center;
+	align-items: center;
+	vertical-align: middle;
 }
 
 .firstTitle{
