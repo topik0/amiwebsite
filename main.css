@@ -7,15 +7,19 @@ color: #ffffff;
 }
 .nodecor a:link {
     color: #ffffff;
+    text-decoration: none;
 }
 .nodecor a:visited {
     color: #ffffff;
+    text-decoration: none;
 }
 .nodecor a:hover {
     color: #ffffff;
+    text-decoration: none;
 }
 .nodecor a:active {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .sbs{
