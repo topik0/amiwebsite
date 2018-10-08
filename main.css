@@ -62,6 +62,11 @@ table {
   background-color: green;
 }
 
+.donateDiv{
+  height: 35vh;
+  background-color: purple;
+}
+
 .footer{
   height: 20vh;
   background-color: orange;
@@ -140,6 +145,11 @@ table {
 .vzb:hover {
   box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
 }
+
+.featureHeader{
+  color: white;
+}
+
 
 .nodecor{
 text-decoration: none;
