@@ -29,9 +29,49 @@
   color: #efefef;
   vertical-align: middle;
   font-family: 'Muli', sans-serif;
-  font-weight: 600;
-padding-top: 1vh;
+  font-weight: 400;
+padding-top: 2rem;
 }
+/* Start Laser Button */
+$zapblue: #126de5;
+/* Basic Button Style */
+.laserBtn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $zapblue;
+  border-radius: 0.6em;
+  color: $zapblue;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+font-family: 'Muli', sans-serif;
+	font-weight: 700;
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+.vzb {
+  border-color: $zapblue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $zapblue inset, 0 0 0 0 $zapblue;
+  transition: all 150ms ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0 10px 0 $zapblue inset, 0 0 10px 4px $zapblue;
+  }
+}
+/* End Laser Button */
 
 /* Reset CSS */
 
