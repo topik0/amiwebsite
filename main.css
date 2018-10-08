@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
+.sbs{
+  display: inline-block;
+}
+
 .upperF {
   height: 100vh;
   background-color: #1e1e1e;
