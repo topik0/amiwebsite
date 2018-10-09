@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
 
 /* Reset CSS */
 
@@ -157,6 +157,7 @@ table {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 2rem;
 	padding: 2em;
+	font-weight: 500;
 }
 
 .nodecor{
