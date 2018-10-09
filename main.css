@@ -54,6 +54,10 @@ table {
 	font-weight: 700;
 }
 
+.sWidth{
+	width: 60%;
+}
+
 .firstF{
   height: 57vh;
   background-color: #c8c8c8;
