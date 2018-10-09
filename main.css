@@ -68,6 +68,11 @@ table {
 	padding: 4rem;
 }
 
+.linearGradOne{
+	height: 2vh;
+	background: linear-gradient(#1e1e1e, #0f0f0f);
+}
+
 .firstF{
   height: 55vh;
   background-color: #0f0f0f;
