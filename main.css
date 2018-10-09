@@ -50,12 +50,15 @@ table {
 .featureHeader{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 34pt;
-	padding: 4rem;
 	font-weight: 700;
 }
 
 .sWidth{
 	width: 40%;
+}
+
+.paddingDivF{
+	padding: 4rem;
 }
 
 .firstF{
