@@ -49,13 +49,13 @@ table {
 
 .featureHeader{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 3rem;
+	font-size: 3em;
 	font-weight: 700;
 }
 
 .featureDescription{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 17pt;
+	font-size: 1.3em;
 	font-weight: 300;
 	padding-top: 1.2rem;
 }
