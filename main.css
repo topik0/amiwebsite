@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
 
 /* Reset CSS */
 
@@ -55,8 +55,8 @@ table {
 
 .featureDescription{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 20pt;
-	font-weight: 400;
+	font-size: 13pt;
+	font-weight: 300;
 	padding-top: .7rem;
 }
 
