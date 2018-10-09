@@ -63,13 +63,14 @@ table {
 
 .firstF{
   height: 57vh;
-  background-color: #c8c8c8;
-	color: #0f0f0f;
+  background-color: #0f0f0f;
+	color: #efefef;
 }
 
 .secondF{
   height: 57vh;
-  background-color: blue;
+  background-color: #c8c8c8;
+	color: #0f0f0f;
 }
 
 .thirdF{
