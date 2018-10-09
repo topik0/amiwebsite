@@ -53,6 +53,13 @@ table {
 	font-weight: 700;
 }
 
+.featureDescription{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20pt;
+	font-weight: 400;
+	padding-top: .7rem;
+}
+
 .sWidth{
 	width: 40%;
 }
