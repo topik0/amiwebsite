@@ -49,13 +49,13 @@ table {
 
 .featureHeader{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 3em;
+	font-size: 2.5vw;
 	font-weight: 700;
 }
 
 .featureDescription{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 1.5em;
+	font-size: 5vw;
 	font-weight: 300;
 	padding-top: 1.2rem;4
 }
@@ -73,7 +73,7 @@ table {
 	background: linear-gradient(#1e1e1e, #0f0f0f);
 }
 .linearGradTwo{
-height: 3vh;
+height: 2vh;
 background: linear-gradient(#0f0f0f, #9E9E9E);
 }
 
