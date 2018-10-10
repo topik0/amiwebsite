@@ -77,6 +77,11 @@ height: 2vh;
 background: linear-gradient(#0f0f0f, #9E9E9E);
 }
 
+.linearGradThree{
+	height: 2vh;
+	background: linear-gradient(#9E9E9E, #126de5)
+}
+
 .firstF{
   height: 55vh;
   background-color: #0f0f0f;
