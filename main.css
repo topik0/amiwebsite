@@ -151,7 +151,7 @@ color: #121212;
   box-sizing: border-box;
   appearance: none;
   background-color: #126de5;
-  border: 0vw solid #126de5;
+  border: 2px solid #126de5;
   border-radius: 2000em;
   color: #126de5;
   cursor: pointer;
