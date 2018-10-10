@@ -57,7 +57,7 @@ table {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
-	padding-top: 1.2rem;
+	padding-top: 1.2rem;4
 }
 
 .sWidth{
@@ -71,6 +71,10 @@ table {
 .linearGradOne{
 	height: 3vh;
 	background: linear-gradient(#1e1e1e, #0f0f0f);
+}
+.linearGradTwo{
+height: 3vh;
+background: linear-gradient(#0f0f0f, #9E9E9E);
 }
 
 .firstF{
