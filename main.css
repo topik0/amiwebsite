@@ -74,7 +74,6 @@ table {
 	font-weight: 400;
 }
 
-
 .featureHeader{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 4.2vw;
@@ -125,16 +124,6 @@ color: #121212;
 .thirdF{
   height: 55vh;
   background-color: #126de5;
-}
-
-.donateDiv{
-  height: 35vh;
-  background-color: #551a8b;
-}
-
-.footer{
-  height: 20vh;
-  background-color: orange;
 }
 
 .sbs{
