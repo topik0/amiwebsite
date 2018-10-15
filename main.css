@@ -50,7 +50,7 @@ table {
 .footer {
   width: 100vw;
   height: 25vh;
-  background-color: #111111;
+  background-color: black;
   display: flex;
   align-items: center;
   text-align: center;
@@ -106,7 +106,7 @@ background: linear-gradient(#0f0f0f, #9E9E9E);
 
 .linearGradThree{
 	height: 2vh;
-	background: linear-gradient(#9E9E9E, #126de5);
+	background: linear-gradient(#9E9E9E, #000000);
 }
 
 .firstF{
@@ -123,7 +123,7 @@ color: #121212;
 
 .thirdF{
   height: 55vh;
-  background-color: #126de5;
+  background-color: #0f0f0f;
 }
 
 .sbs{
