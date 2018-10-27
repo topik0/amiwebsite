@@ -74,13 +74,13 @@ table {
 	font-weight: 400;
 }
 
-.footerText a {
+.footerTextDiv a {
     font-weight: bold;
     font-size: 20vh;
     transition: all 500ms;
 }
 
-.footerText a:hover {
+.footerTextDiv a:hover {
     font-size: 22.8vh;
 
 }
