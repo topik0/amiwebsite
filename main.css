@@ -75,14 +75,11 @@ table {
 }
 
 .footerTextDiv a {
-    font-weight: bold;
-    font-size: 20vh;
     transition: all 500ms;
 }
 
 .footerTextDiv a:hover {
-    font-size: 22.8vh;
-
+    font-size: 4vh;
 }
 
 .featureHeader{
