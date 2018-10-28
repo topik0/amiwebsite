@@ -100,6 +100,7 @@ table {
 	height: 25vh;
 	background-color: white;
 	text-align: center;
+	padding: 4vh;
 }
 
 .sWidth{
@@ -108,7 +109,7 @@ table {
 
 .paddingDivF{
 	display: flex;
-	padding: 10vw;
+	padding: 4vh;
 	width: 75vw;
 	text-align: center;
 	align-items: center;
