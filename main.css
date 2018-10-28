@@ -120,13 +120,13 @@ table {
 	background: linear-gradient(#1e1e1e, #0f0f0f);
 }
 .linearGradTwo{
-height: 2vh;
-background: linear-gradient(#0f0f0f, #9E9E9E);
+	height: 2vh;
+	background: linear-gradient(#0f0f0f, #202020);
 }
 
 .linearGradThree{
 	height: 4vh;
-	background: linear-gradient(#9E9E9E, #000000);
+	background: linear-gradient(#202020, #0f0f0f);
 }
 
 .firstF{
