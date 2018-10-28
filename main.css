@@ -118,6 +118,9 @@ background: linear-gradient(#0f0f0f, #9E9E9E);
 }
 
 .firstF{
+	display: flex;
+	text-align: center;
+	justify-content: center;
   height: 55vh;
   background-color: #0f0f0f;
 	color: #efefef;
