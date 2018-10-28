@@ -97,8 +97,9 @@ table {
 
 .featureUnderline{
 	width: 20vw;
-	height: 1.5vh;
+	height: .3vh;
 	background-color: white;
+	text-align: center;
 }
 
 .sWidth{
