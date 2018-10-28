@@ -96,8 +96,8 @@ table {
 }
 
 .featureUnderline{
-	width: 20vw;
-	height: .3vh;
+	width: .6vw;
+	height: 25vh;
 	background-color: white;
 	text-align: center;
 }
@@ -109,7 +109,7 @@ table {
 .paddingDivF{
 	display: flex;
 	padding: 4vh;
-	width: 50vw;
+	width: 68vw;
 	text-align: center;
 	align-items: center;
 }
