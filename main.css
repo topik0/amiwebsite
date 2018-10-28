@@ -220,11 +220,6 @@ table {
   text-transform: uppercase;
 }
 
-.laserBtn:hover, .laserBtn:focus {
-  color: #fff;
-  outline: 0;
-}
-
 .vzb {
   border-color: #126de5;
   color: #fff;
@@ -233,8 +228,8 @@ table {
 }
 
 .vzb:hover {
-background-color: transparent;
-  box-shadow: 0 0 10px 0 #126de5 inset, 0 0 10px 4px #126de5;
+padding: 1.44em 2.84em;
+font-size: 1.5vw;
 }
 
 .nodecor{
