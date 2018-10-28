@@ -136,18 +136,23 @@ background: linear-gradient(#0f0f0f, #9E9E9E);
   height: 55vh;
   background-color: #0f0f0f;
 	color: #efefef;
-	text-align: center;
 }
 
 .secondF{
+	display: flex;
+	text-align: center;
+	justify-content: center;
   height: 55vh;
-  background-color: #9E9E9E;
-color: #121212;
+  background-color: #1e1e1e;
+	color: #efefef;
 }
 
 .thirdF{
-  height: 55vh;
-color: #efefef;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 55vh;
+	color: #efefef;
   background-color: #0f0f0f;
 }
 
