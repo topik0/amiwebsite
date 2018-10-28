@@ -109,6 +109,7 @@ table {
 .paddingDivF{
 	padding: 4vh;
 	width: 50vw;
+	text-align: center;
 }
 
 .linearGradOne{
