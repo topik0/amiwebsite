@@ -84,7 +84,7 @@ table {
 
 .featureHeader{
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 4.2vw;
+	font-size: 4vw;
 	font-weight: 700;
 }
 
@@ -109,7 +109,7 @@ table {
 .paddingDivF{
 	display: flex;
 	padding: 4vh;
-	width: 68vw;
+	width: 75vw;
 	text-align: center;
 	align-items: center;
 }
