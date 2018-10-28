@@ -107,9 +107,11 @@ table {
 }
 
 .paddingDivF{
+	display: flex;
 	padding: 4vh;
 	width: 50vw;
 	text-align: center;
+	align-items: center;
 }
 
 .linearGradOne{
