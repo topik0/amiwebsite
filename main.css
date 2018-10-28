@@ -195,34 +195,6 @@ background: linear-gradient(#0f0f0f, #9E9E9E);
   text-decoration: none;
 }
 
-.pentahedron{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  fill: #3E82F7;
-}
-.point{
-  fill: #8491A3;
-}
-.rhombus{
-  fill: #2DA94F;
-  stroke: #2DA94F;
-}
-.x{
-  fill: #FDBD00;
-}
-.circle{
-  fill: #ED412D;
-}
-
-svg{
-  display: block;
-  width: 3.5vw;
-  height: 3.5vw;
-  position: absolute;
-  transform: translateZ(0px);
-}
-
 /* Start Laser Button */
 
 /* Basic Button Style */
