@@ -129,6 +129,11 @@ table {
 	background: linear-gradient(#181818, #0f0f0f);
 }
 
+.linearGradFour{
+	height: 4vh;
+	background: linear-gradient(#0f0f0f, black);
+}
+
 .firstF{
 	display: flex;
 	text-align: center;
@@ -224,7 +229,7 @@ table {
   border-color: #126de5;
   color: #fff;
   box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
-  transition: all 200ms ease-in-out;
+  transition: all 210ms ease-in-out;
 }
 
 .vzb:hover {
