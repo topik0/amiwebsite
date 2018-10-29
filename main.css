@@ -49,7 +49,7 @@ table {
 
 .footer {
   width: 100vw;
-  height: 25rem;
+  height: 25vh;
   background-color: black;
   display: flex;
   align-items: center;
