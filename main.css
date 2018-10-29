@@ -256,7 +256,9 @@ text-decoration-line: none;
     color: #ffffff;
 }
 
-
+button{
+	outline: none;
+}
 
 .nodecor a:active {
     color: #ffffff;
