@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
-
 /* Reset CSS */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,7 +44,140 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End Reset CSS */
+/* Impression */
+.upperF {
+  height: 100vh;
+  background-color: #1e1e1e;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.amilogo{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
+.firstTitle{
+  font-size: 6.5vw;
+  color: #efefef;
+  vertical-align: middle;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-decoration: none;
+}
+.sbs{
+  display: flex;
+}
+	/* Laser Button */
+	.laserBtn {
+	  box-sizing: border-box;
+	  appearance: none;
+	  background-color: #126de5;
+	  border: 2px solid #126de5;
+	  border-radius: 2000em;
+	  color: #126de5;
+	  cursor: pointer;
+	  display: flex;
+	  align-self: center;
+	  font-family: 'Ubuntu', sans-serif;
+	  font-size: 1.3vw;
+	  font-weight: 400;
+	  line-height: 1;
+	  margin: 4vh;
+	  padding: 1.2em 2.8em;
+	  text-decoration: none;
+	  text-align: center;
+	  text-transform: uppercase;
+	}
+	.vzb {
+	  border-color: #126de5;
+	  color: #fff;
+	  box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
+	  transition: all 210ms ease-in-out;
+	}
+	.vzb:hover {
+	 transform: scale(1.17);
+	 margin-left: 2.8vw;
+	 margin-right: 2.8vw;
+	}
+	/* End Laser Button */
+/* End Impression */
+/* Beef */
+.paddingDivF{
+	display: flex;
+	padding: 4vh;
+	width: 75vw;
+	text-align: center;
+	align-items: center;
+}
+.featureHeader{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3.1vw;
+	font-weight: 700;
+}
+.featureDescription{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8vw;
+	font-weight: 300;
+	padding-top: 2vh;
+}
+.featureUnderline{
+	width: 1vw;
+	height: 25vh;
+	background-color: white;
+	text-align: center;
+	margin: 4vh;
+}
+.firstF{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+  height: 55vh;
+  background-color: #0f0f0f;
+	color: #efefef;
+}
+.linearGradOne{
+	height: 3vh;
+	background: linear-gradient(#1e1e1e, #0f0f0f);
+}
+.secondF{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+  height: 55vh;
+  background-color: #181818;
+	color: #efefef;
+}
+.linearGradTwo{
+	height: 2vh;
+	background: linear-gradient(#0f0f0f, #181818);
+}
+.thirdF{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	height: 55vh;
+	color: #efefef;
+  background-color: #0f0f0f;
+}
+.linearGradThree{
+	height: 4vh;
+	background: linear-gradient(#181818, #0f0f0f);
+}
 
+/* End Laser Button */
+
+/* Footer */
+.linearGradFour{
+	height: 4vh;
+	background: linear-gradient(#0f0f0f, black);
+}
 .footer {
   width: 100vw;
   height: 25vh;
@@ -81,169 +212,20 @@ table {
 .footerTextDiv a:hover {
     font-size: 3.8vh;
 }
+/* End Footer */
 
-.featureHeader{
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 3.1vw;
-	font-weight: 700;
-}
-
-.featureDescription{
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 1.8vw;
-	font-weight: 300;
-	padding-top: 2vh;
-}
-
-.featureUnderline{
-	width: 1vw;
-	height: 25vh;
-	background-color: white;
-	text-align: center;
-	margin: 4vh;
-}
-
-.sWidth{
-	width: 48vw;
-}
-
-.paddingDivF{
-	display: flex;
-	padding: 4vh;
-	width: 75vw;
-	text-align: center;
-	align-items: center;
-}
-
-.linearGradOne{
-	height: 3vh;
-	background: linear-gradient(#1e1e1e, #0f0f0f);
-}
-.linearGradTwo{
-	height: 2vh;
-	background: linear-gradient(#0f0f0f, #181818);
-}
-
-.linearGradThree{
-	height: 4vh;
-	background: linear-gradient(#181818, #0f0f0f);
-}
-
-.linearGradFour{
-	height: 4vh;
-	background: linear-gradient(#0f0f0f, black);
-}
-
-.firstF{
-	display: flex;
-	text-align: center;
-	justify-content: center;
-  height: 55vh;
-  background-color: #0f0f0f;
-	color: #efefef;
-}
-
-.secondF{
-	display: flex;
-	text-align: center;
-	justify-content: center;
-  height: 55vh;
-  background-color: #181818;
-	color: #efefef;
-}
-
-.thirdF{
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	height: 55vh;
-	color: #efefef;
-  background-color: #0f0f0f;
-}
-
-.sbs{
-  display: flex;
-}
-
-.upperF {
-  height: 100vh;
-  background-color: #1e1e1e;
-	text-align: center;
-	align-items: center;
-	vertical-align: middle;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.amilogo{
-  width: 18%;
-  height: auto;
-  border-radius: 50%;
-}
-
+/* Misc */
 .nodrag{
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
-
-.firstTitle{
-  font-size: 6.5vw;
-  color: #efefef;
-  vertical-align: middle;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  text-decoration: none;
-}
-
-/* Start Laser Button */
-
-/* Basic Button Style */
-
-.laserBtn {
-  box-sizing: border-box;
-  appearance: none;
-  background-color: #126de5;
-  border: 2px solid #126de5;
-  border-radius: 2000em;
-  color: #126de5;
-  cursor: pointer;
-  display: flex;
-  align-self: center;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.3vw;
-  font-weight: 400;
-  line-height: 1;
-  margin: 4vh;
-  padding: 1.2em 2.8em;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.vzb {
-  border-color: #126de5;
-  color: #fff;
-  box-shadow: 0 0 40px 40px #126de5 inset, 0 0 0 0 #126de5;
-  transition: all 210ms ease-in-out;
-}
-
-.vzb:hover {
- transform: scale(1.17);
- margin-left: 2.8vw;
- margin-right: 2.8vw;
-}
-
 .nodecor{
 text-decoration: none;
 color: #ffffff;
 text-decoration-line: none;
 }
-
 .nodecor a:link {
     color: #ffffff;
 }
@@ -255,12 +237,7 @@ text-decoration-line: none;
 .nodecor a:hover {
     color: #ffffff;
 }
-
-button{
-	outline: none;
-}
-
 .nodecor a:active {
     color: #ffffff;
 }
-/* End Laser Button */
+/* End Misc */
