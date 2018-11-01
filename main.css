@@ -110,6 +110,9 @@ table {
     .upperF{
 	    flex-direction: column;
 		}
+		.amilogo{
+			width: 45%;
+		}
 }
 	/* End Laser Button */
 /* End Impression */
