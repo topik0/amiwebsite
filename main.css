@@ -106,17 +106,7 @@ table {
 	 margin-left: 2.8vw;
 	 margin-right: 2.8vw;
 	}
-@media only screen and (max-width: 600px) {
-    .laserBtn{
-	    flex-direction: column;
-		}
-		.vzb{
-	    flex-direction: column;
-		}
-		.amilogo{
-			width: 45%;
-		}
-}
+
 	/* End Laser Button */
 /* End Impression */
 /* Beef */
@@ -252,3 +242,14 @@ text-decoration-line: none;
     color: #ffffff;
 }
 /* End Misc */
+@media only screen and (max-width: 600px) {
+    .laserBtn{
+	    flex-direction: column;
+		}
+		.vzb{
+	    flex-direction: column;
+		}
+		.amilogo{
+			width: 45%;
+		}
+}
