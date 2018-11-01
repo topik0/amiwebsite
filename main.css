@@ -246,6 +246,9 @@ text-decoration-line: none;
     .sbs{
 	    flex-direction: column;
 		}
+		.laserBtn{
+			 padding: 2.4em 5.6em;
+		}
 		.amilogo{
 			width: 45%;
 		}
