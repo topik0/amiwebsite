@@ -107,7 +107,7 @@ table {
 	 margin-right: 2.8vw;
 	}
 @media only screen and (max-width: 600px) {
-    .upperF{
+    .laserBtn{
 	    flex-direction: column;
 		}
 		.amilogo{
