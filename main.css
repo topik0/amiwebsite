@@ -243,10 +243,7 @@ text-decoration-line: none;
 }
 /* End Misc */
 @media only screen and (max-width: 750px;) {
-    .laserBtn{
-	    flex-direction: column;
-		}
-		.vzb{
+    .sbs{
 	    flex-direction: column;
 		}
 		.amilogo{
