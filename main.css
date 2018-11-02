@@ -244,7 +244,7 @@ text-decoration-line: none;
 /* End Misc */
 @media only screen and (max-width: 750px;) {
     .sbs{
-	    flex-direction: column;
+	    flex-direction: column !important;
 		}
 		.laserBtn{
 			 padding: 2.4em 5.6em;
