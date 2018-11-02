@@ -59,6 +59,8 @@ button{
 .cButton{
   height: 20vh;
   width: 40vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 /* Footer */
 .footer {
@@ -107,5 +109,24 @@ button{
     padding-bottom: 1.5vh;
     padding-top: 1.5vh;
   }
+}
+.nodecor{
+text-decoration: none;
+color: #ffffff;
+text-decoration-line: none;
+}
+.nodecor a:link {
+    color: #ffffff;
+}
+
+.nodecor a:visited {
+    color: #ffffff;
+}
+
+.nodecor a:hover {
+    color: #ffffff;
+}
+.nodecor a:active {
+    color: #ffffff;
 }
 /* End Footer */
