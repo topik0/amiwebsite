@@ -248,7 +248,8 @@ text-decoration-line: none;
 			align-items: center;
 		}
 		.laserBtn{
-			 padding: 2.4em 5.6em;
+			 padding: 2em 7em;
+			 font-size: 3vw;
 		}
 		.vzb:hover {
 		 transform: scale(1);
