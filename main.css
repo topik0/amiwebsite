@@ -242,6 +242,7 @@ text-decoration-line: none;
     color: #ffffff;
 }
 /* End Misc */
+/* Media Queries / Mobile Optimization */
 @media only screen and (max-width: 750px) {
     .sbs{
 	    flex-direction: column !important;
@@ -252,9 +253,9 @@ text-decoration-line: none;
 			 font-size: 3vw;
 		}
 		.vzb:hover {
-		 transform: scale(1);
-		 margin-left: 0vw;
-		 margin-right: 0vw;
+		 	transform: scale(1);
+		 	margin-left: 0vw;
+		 	margin-right: 0vw;
 		}
 		.amilogo{
 			width: 45%;
@@ -263,3 +264,4 @@ text-decoration-line: none;
 			font-size: 11vw;
 		}
 }
+/* End Mobile Optimization */
