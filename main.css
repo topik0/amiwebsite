@@ -264,7 +264,7 @@ text-decoration-line: none;
 			font-size: 18vw;
 		}
 		.firstF, .secondF, .thirdF{
-			height: 43vh;
+			height: 55vh;
 		}
 		.featureUnderline{
 			height: .3vh;
@@ -274,10 +274,10 @@ text-decoration-line: none;
 			flex-direction: column;
 		}
 		.featureHeader{
-			font-size: 6vw;
+			font-size: 7vw;
 		}
 		.featureDescription{
-			font-size: 4vw;
+			font-size: 5vw;
 		}
 		.footer{
 			height: 40vh;
