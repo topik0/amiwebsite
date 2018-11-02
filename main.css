@@ -245,6 +245,7 @@ text-decoration-line: none;
 @media only screen and (max-width: 750px) {
     .sbs{
 	    flex-direction: column !important;
+			align-items: center;
 		}
 		.laserBtn{
 			 padding: 2.4em 5.6em;
