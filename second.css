@@ -84,6 +84,11 @@ button{
   font-size: 10vh;
   text-align: center;
 }
+.titleDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Footer */
 .footer {
   width: 100%;
