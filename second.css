@@ -49,13 +49,14 @@ button{
 }
 /* End Reset CSS */
 .mainDiv{
-  height: 100vh;
+  height: 100%;
   background-color: #1e1e1e;
   display: flex;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
   flex-wrap: wrap;
+  font-family: 'Ubuntu', sans-serif;
 }
 .cButton{
   height: 27vh;
@@ -66,7 +67,8 @@ button{
   margin-bottom: 0;
   transition: all 210ms ease-in-out;
   border: none;
-  font-size: 5vh;
+  font-size: 6vh;
+  font-family: 'Ubuntu', sans-serif;
 }
 .cButton:hover{
   transform: scale(1.17);
