@@ -59,6 +59,9 @@ button{
   font-family: 'Ubuntu', sans-serif;
 }
 .cButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 27vh;
   width: 25vw;
   margin-left: 3vw;
@@ -69,11 +72,17 @@ button{
   border: none;
   font-size: 6vh;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #111111;
 }
 .cButton:hover{
-  transform: scale(1.17);
+  transform: scale(1.15);
   transition: all 210ms ease-in-out;
   background-color: #126de5;
+}
+.commandTitle{
+  color: white;
+  font-size: 10vh;
+  text-align: center;
 }
 /* Footer */
 .footer {
