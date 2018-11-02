@@ -249,8 +249,8 @@ text-decoration-line: none;
 			align-items: center;
 		}
 		.laserBtn{
-			 padding: 2em 7em;
-			 font-size: 3vw;
+			 padding: 1.5em 5em;
+			 font-size: 4vw;
 		}
 		.vzb:hover {
 		 	transform: scale(1);
@@ -261,7 +261,7 @@ text-decoration-line: none;
 			width: 45%;
 		}
 		.firstTitle{
-			font-size: 11vw;
+			font-size: 13vw;
 		}
 		.firstF, .secondF, .thirdF{
 			height: 30vh;
