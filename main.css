@@ -261,14 +261,24 @@ text-decoration-line: none;
 			width: 45%;
 		}
 		.firstTitle{
-			font-size: 13vw;
+			font-size: 18vw;
 		}
 		.firstF, .secondF, .thirdF{
-			height: 30vh;
+			height: 43vh;
 		}
 		.featureUnderline{
-			height: 11vh;
-			width: 1.2vw;
+			height: .3vh;
+			width: 35vw;
+		}
+		.paddingDivF{
+			flex-direction: column;
+		}
+		.featureHeader{
+			font-size: 6vw;
+		}
+		.featureDescription{
+			font-size: 4vw;
+
 		}
 }
 /* End Mobile Optimization */
