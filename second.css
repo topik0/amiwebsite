@@ -55,12 +55,23 @@ button{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+  flex-wrap: wrap;
 }
 .cButton{
-  height: 20vh;
-  width: 40vw;
+  height: 27vh;
+  width: 25vw;
   margin-left: 3vw;
   margin-right: 3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: all 210ms ease-in-out;
+  border: none;
+  font-size: 5vh;
+}
+.cButton:hover{
+  transform: scale(1.17);
+  transition: all 210ms ease-in-out;
+  background-color: #126de5;
 }
 /* Footer */
 .footer {
