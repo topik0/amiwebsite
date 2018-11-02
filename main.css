@@ -263,5 +263,12 @@ text-decoration-line: none;
 		.firstTitle{
 			font-size: 11vw;
 		}
+		.firstF, .secondF, .thirdF{
+			height: 30vh;
+		}
+		.featureUnderline{
+			height: 11vh;
+			width: 1.2vw;
+		}
 }
 /* End Mobile Optimization */
