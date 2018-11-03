@@ -70,7 +70,7 @@ button{
   background-color: #111111;
 width: calc(33.33% - 6vw); 
 	margin: 3vw; 
-	line-height 27vh;
+	line-height: 27vh;
 }
 .cButton:hover{
   transform: scale(1.15);
