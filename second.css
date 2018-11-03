@@ -85,6 +85,9 @@ button{
   text-align: center;
 font-family: 'Ubuntu', sans-serif;
 	width: 100%;
+	background-color: #1e1e1e;
+	padding: 4vh;
+	box-sizing: border-box;
 }
 .titleDiv {
     display: inline-block;
