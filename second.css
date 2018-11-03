@@ -49,9 +49,9 @@ button{
 }
 /* End Reset CSS */
 .mainDiv{
+  display: flex;
   height: 100vh;
   background-color: #1e1e1e;
-  display: block;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -59,18 +59,20 @@ button{
   font-family: 'Ubuntu', sans-serif;
 }
 .cButton{
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
-  height: 27vh;
+  height: 200px;
   transition: all 210ms ease-in-out;
   border: none;
-  font-size: 6vh;
+  font-size: 3rem;
   font-family: 'Ubuntu', sans-serif;
   background-color: #111111;
-width: calc(33.33% - 6vw); 
-	margin: 3vw; 
-	line-height: 27vh;
+  width: 300px;
+	margin-right: 4vw;
+  margin-left: 4vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 .cButton:hover{
   transform: scale(1.15);
@@ -81,23 +83,19 @@ width: calc(33.33% - 6vw);
   color: white;
   font-size: 10vh;
   text-align: center;
-font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 	width: 100%;
 	background-color: #1e1e1e;
-	padding: 6vh;
-	box-sizing: border-box;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
 }
 .titleDiv {
-    display: inline-block;
     position: absolute;
     text-align: center;
     top: 0;
     margin: 0 auto !important;
-	width: 100%;
-padding-top: 3vh;
-padding-bottom: 3vh;
-	background-color: #1e1e1e;
-	
+	  width: 100%;
+	  background-color: #1e1e1e;
 }
 /* Footer */
 .footer {
