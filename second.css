@@ -84,7 +84,7 @@ width: calc(33.33% - 6vw);
 font-family: 'Ubuntu', sans-serif;
 	width: 100%;
 	background-color: #1e1e1e;
-	padding: 4vh;
+	padding: 6vh;
 	box-sizing: border-box;
 }
 .titleDiv {
