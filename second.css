@@ -68,7 +68,7 @@ button{
   font-size: 3rem;
   font-family: 'Ubuntu', sans-serif;
   background-color: #111111;
-  width: 300px;
+  width: 320px;
 	margin-right: 4vw;
   margin-left: 4vw;
   margin-top: 2vw;
@@ -81,7 +81,7 @@ button{
 }
 .commandTitle{
   color: white;
-  font-size: 10vh;
+  font-size: 95px;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 	width: 100%;
@@ -144,6 +144,13 @@ button{
     padding-bottom: 1.5vh;
     padding-top: 1.5vh;
   }
+	.commandTitle{
+		font-size: 12vw;
+	}
+	.middlePaddingDiv{
+		padding-top: 5vh;
+		background-color: #1e1e1e;
+	}
 }
 .nodecor{
 text-decoration: none;
