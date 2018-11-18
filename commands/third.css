@@ -77,7 +77,7 @@ button{
 .cButton:hover{
   transform: scale(1.04);
   transition: all 210ms ease-in-out;
-  box-shadow: 2px 2px;
+  box-shadow: 2px 2px 2px #000000;
 }
 .cButtonTitle{
   padding: 0.5vh;
