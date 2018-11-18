@@ -186,4 +186,5 @@ text-decoration-line: none;
 .bigFooterDiv{
 display: flex; 
 justify-content: center;
+z-index: 1;
 }
