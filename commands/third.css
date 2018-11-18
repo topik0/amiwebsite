@@ -87,8 +87,14 @@ button{
   padding-top: 2vh;
 }
 .cButtonDesc{
-  font-size: 2rem;
-  padding: 1vh;
+  font-size: 1.8rem;
+  padding: 1.2vh;
+}
+.wrappingDivOne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .commandTitle{
   color: white;
