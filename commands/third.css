@@ -171,4 +171,23 @@ text-decoration-line: none;
 .nodecor a:active {
     color: #ffffff;
 }
+.nodecorOne{
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+.nodecorOne a:link {
+    color: #ffffff;
+}
+.nodecorOne a:visited {
+    color: #ffffff;
+}
+.nodecorOne:hover {
+    color: #ffffff;
+    border-bottom: .04em solid;
+    transition: all 50ms ease-in-out;
+}
+.nodecorOne a:active {
+    color: #ffffff;
+}
 /* End Footer */
