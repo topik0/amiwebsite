@@ -60,24 +60,35 @@ button{
 }
 .cButton{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
+  align-items: top;
+  justify-content: left;
+  height: 270px;
   transition: all 210ms ease-in-out;
   border: none;
   font-size: 3rem;
   font-family: 'Ubuntu', sans-serif;
   background-color: #111111;
-  width: 320px;
+  width: 270px;
 	margin-right: 4vw;
   margin-left: 4vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
 }
 .cButton:hover{
-  transform: scale(1.15);
+  transform: scale(1.04);
   transition: all 210ms ease-in-out;
-  background-color: #126de5;
+  box-shadow: 2px 2px;
+}
+.cButtonTitle{
+  padding: 0.5vh;
+}
+.cButtonUsage{
+  font-size: 1rem;
+  padding-top: 2vh;
+}
+.cButtonDesc{
+  font-size: 2rem;
+  padding: 1vh;
 }
 .commandTitle{
   color: white;
