@@ -154,7 +154,10 @@ button{
 	font-family: 'Ubuntu';
 	font-weight: 400;
 }
-
+.bigFooterDiv{
+display: flex; 
+justify-content: center;
+}
 .footerTextDiv a {
     transition: all 500ms;
 }
