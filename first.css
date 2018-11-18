@@ -223,13 +223,14 @@ button{
   text-align: center;
   position: absolute;
   padding: 6vh;
-  z-index: 0;
+  z-index: -1;
   font-family: 'Ubuntu';
   font-weight: 400;
 }
 .bigFooterDiv{
 display: flex;
 justify-content: center;
+z-index: 1;
 }
 /* End Footer */
 
