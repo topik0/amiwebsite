@@ -82,6 +82,9 @@ button{
 .cButtonTitle{
   padding: 0.5vh;
 }
+.cChannelClass{
+	font-size: 2rem;
+}
 .cButtonUsage{
   font-size: 1rem;
   padding-top: 2vh;
