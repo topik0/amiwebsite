@@ -73,6 +73,7 @@ button{
   margin-left: 4vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
+	box-shadow: 0 0 5px #000000;
 }
 .cButton:hover{
   transform: scale(1.04);
