@@ -81,6 +81,7 @@ button{
 }
 .cButtonTitle{
   padding: 0.5vh;
+	font-weight: 700;
 }
 .cChannelClass{
 	font-size: 2rem;
@@ -150,7 +151,7 @@ button{
   padding: 6vh;
   z-index: 0;
   font-family: 'Ubuntu';
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .footerText {
@@ -158,7 +159,7 @@ button{
   padding-right: 1vw;
   text-align: center;
 	font-family: 'Ubuntu';
-	font-weight: 400;
+	font-weight: 700;
 }
 .bigFooterDiv{
 display: flex;
