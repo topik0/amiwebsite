@@ -365,3 +365,11 @@ text-decoration-line: none;
 	border-left: 50vw solid #1e1e1e;
 	left: 0;
 }
+@-moz-document url-prefix() {
+  .gradientOne{
+    margin-top: -60vh;
+  }
+	.triangle{
+		margin-top: -19vh;
+	}
+}
