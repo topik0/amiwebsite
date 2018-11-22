@@ -22,9 +22,29 @@
   <meta property="twitter:image" content="https://www.amidiscord.me/ami_logo.png">
   <meta name="google" content="notranslate">
 </head>
+<script>
+var test = document.getElementById('serverCount')
+var test2 = document.getElementById("upvoteCount");
+fetch('https://discordbots.org/api/bots/490852867171942410')
+  .then(function(response) {
+    return response.json();
+  })
+.then(function(respJSON) {
+  console.log(respJSON)
+  serverCount.innerHTML = respJSON.server_count +' Servers'
+  upvoteCount.innerHTML = respJSON.points + ' Upvotes'
+})
+.catch(function(err) {
+  console.error(err)
+})
+</script>
 <body>
 <div class="upperF">
   <div class="gradientOne">
+    <div class="statsDiv">
+      <div id="serverCount" class="statsDisplay"></div>
+      <div id="upvoteCount" class="statsDisplay"></div>
+    </div>
     <div class="triangle triangle-1"></div>
     <div class="triangle triangle-0"></div>
   </div>

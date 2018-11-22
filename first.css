@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Ubuntu:300,400,700');
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -364,4 +364,23 @@ text-decoration-line: none;
 	border-top-width: 25vh;
 	border-left: 50vw solid #1e1e1e;
 	left: 0;
+}
+.statsDiv{
+	padding: 7.5vh;
+	padding-left: 10vh;
+	padding-right: 10vh;
+	display: flex;
+	justify-content: space-between;
+}
+.statsDisplay{
+	display: inline-block;
+	font-family: 'Source Code Pro';
+	color: white;
+	font-size: 4vh;
+}
+#serverCount{
+	text-align: left;
+}
+#upvoteCount{
+	text-align: right;
 }
