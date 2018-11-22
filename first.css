@@ -328,3 +328,9 @@ text-decoration-line: none;
 		}
 }
 /* End Mobile Optimization */
+.gradientOne{
+	background: linear-gradient(to right, #70C2DA, #22C846);
+	width: 100%;
+	height: 20vh;
+	position: relative;
+}
