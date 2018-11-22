@@ -208,7 +208,7 @@ button{
   padding-right: 1vw;
   text-align: center;
 	font-family: 'Ubuntu';
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .footerTextDiv a {
@@ -227,7 +227,7 @@ button{
   padding: 6vh;
   z-index: -1;
   font-family: 'Ubuntu';
-  font-weight: 400;
+  font-weight: 700;
 }
 .bigFooterDiv{
 display: flex;
