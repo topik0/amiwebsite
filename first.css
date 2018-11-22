@@ -331,8 +331,9 @@ text-decoration-line: none;
 .gradientOne{
 	background: linear-gradient(to right, #70C2DA, #22C846);
 	width: 100%;
-	height: 20vh;
+	height: 50vh;
 	position: absolute;
+	top:0;
 }
 *,
 *:before,
