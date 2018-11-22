@@ -242,7 +242,7 @@ text-decoration-line: none;
 .nodecorOne:hover {
     color: #ffffff;
     border-bottom: .04em solid;
-    transition: all 50ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 .nodecorOne a:active {
     color: #ffffff;
