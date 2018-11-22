@@ -334,3 +334,31 @@ text-decoration-line: none;
 	height: 20vh;
 	position: relative;
 }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.triangle {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.triangle-0 {
+  width: 120px;
+  height: 60px;
+  border-right: solid 60px rgb(20,20,20);
+  border-bottom: solid 30px rgb(20,20,20);
+  border-top: solid 30px transparent;
+  border-left: solid 60px transparent;
+  margin-left: -2px;
+}
+.triangle-1 {
+  width: 120px;
+  height: 60px;
+  margin-right: -2px;
+  border-left: solid 60px rgb(20,20,20);
+  border-bottom: solid 30px rgb(20,20,20);
+  border-top: solid 30px transparent;
+  border-right: solid 60px transparent;
+}
