@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Ami Stats</title>
+</head>
+<body>
+  <h1>Ami Stats</h1>
+  <p id="defAvatar">Error</p>
+  <p id="invite">Error</p>
+  <p id="website">Error</p>
+  <p id="support">Error</p>
+  <p id="longdesc">longdesc: [hidden]</p>
+  <p id="shortdesc">Error</p>
+  <p id="prefix">Error</p>
+  <p id="lib">Error</p>
+  <p id="clientid">Error</p>
+  <p id="avatar">Error</p>
+  <p id="id">Error</p>
+  <p id="discriminator">Error</p>
+  <p id="username">Error</p>
+  <p id="date">Error</p>
+  <p id="server_count">Error</p>
+  <p id="guilds">Error</p>
+  <p id="shards">Error</p>
+  <p id="monthlyPoints">Error</p>
+  <p id="points">Error</p>
+  <p id="certifiedBot">Error</p>
+  <p id="owners">Error</p>
+  <p id="tags">Error</p>
+  <p id="donatebotguildid">Error</p>
+</body>
+<script>
+  var defAvatar = document.getElementById('defAvatar')
+  var invite = document.getElementById("invite");
+  var website = document.getElementById("website");
+  var support = document.getElementById("support");
+  var shortdesc = document.getElementById("shortdesc");
+  var prefix = document.getElementById("prefix");
+  var lib = document.getElementById("lib");
+  var clientid = document.getElementById("clientid");
+  var avatar = document.getElementById("avatar");
+  var id = document.getElementById("id");
+  var discriminator = document.getElementById("discriminator");
+  var username = document.getElementById("username");
+  var date = document.getElementById("date");
+  var server_count = document.getElementById("server_count");
+  var guilds = document.getElementById("guilds");
+  var shards = document.getElementById("shards");
+  var monthlyPoints = document.getElementById("monthlyPoints");
+  var points = document.getElementById("points");
+  var certifiedBot = document.getElementById("certifiedBot");
+  var owners = document.getElementById("owners");
+  var tags = document.getElementById("tags");
+  var donatebotguildid = document.getElementById("donatebotguildid");
+  fetch('https://discordbots.org/api/bots/490852867171942410')
+    .then(function(response) {
+      return response.json();
+    })
+  .then(function(respJSON) {
+    console.log(respJSON)
+    defAvatar.innerHTML = 'defAvatar: ' + respJSON.defAvatar
+    invite.innerHTML = 'invite: ' + respJSON.invite
+    website.innerHTML = 'website: ' + respJSON.website
+    support.innerHTML = 'support: discord.gg/' + respJSON.support
+    shortdesc.innerHTML = 'shortdesc: ' + respJSON.shortdesc
+    prefix.innerHTML = 'prefix: ' + respJSON.prefix
+    lib.innerHTML = 'lib: ' + respJSON.lib
+    clientid.innerHTML = 'clientid: ' + respJSON.clientid
+    avatar.innerHTML = 'avatar: ' + respJSON.avatar
+    id.innerHTML = 'id: ' + respJSON.id
+    discriminator.innerHTML = 'discriminator: ' + respJSON.discriminator
+    username.innerHTML = 'username: ' + respJSON.username
+    date.innerHTML = 'date: ' + respJSON.date
+    server_count.innerHTML = 'server_count: ' + respJSON.server_count
+    guilds.innerHTML = 'guilds: ' + respJSON.guilds
+    shards.innerHTML = 'shards: ' + respJSON.shards
+    monthlyPoints.innerHTML = 'monthlyPoints: ' + respJSON.monthlyPoints
+    points.innerHTML = 'points: ' + respJSON.points
+    certifiedBot.innerHTML = 'certifiedBot: ' + respJSON.certifiedBot
+    owners.innerHTML = 'owners: ' + respJSON.owners
+    tags.innerHTML = 'tags: ' + respJSON.tags
+    donatebotguildid.innerHTML = 'donatebotguildid: ' + respJSON.donatebotguildid
+  })
+  .catch(function(err) {
+    console.error(err)
+  })
+</script>
+</html>
