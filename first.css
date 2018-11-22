@@ -320,12 +320,12 @@ text-decoration-line: none;
 		  z-index: -1;
 		  font-family: 'Ubuntu';
 		  font-weight: 400;
-				align-items: flex-end;
+			align-items: flex-end;
 		}
 		.bigFooterDiv{
-		display: flex;
-		justify-content: center;
-		z-index: 1;
+			display: flex;
+			justify-content: center;
+			z-index: 1;
 			align-items: flex-end;
 		}
 }
@@ -348,18 +348,18 @@ text-decoration-line: none;
   margin-top: -12vh;
 }
 .triangle-0 {
-width: 0;
-height: 0;
-border: 0 solid transparent;
-border-top-width: 25vh;
-border-bottom-width: 0px;
-border-right: 50vw solid #fff;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-top-width: 25vh;
+	border-bottom-width: 0px;
+	border-right: 50vw solid #fff;
 }
 .triangle-1 {
-  width: 0;
-height: 0;
-border: 0 solid transparent;
-border-bottom-width: 0px;
-border-top-width: 25vh;
-border-left: 50vw solid #fff;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-bottom-width: 0px;
+	border-top-width: 25vh;
+	border-left: 50vw solid #fff;
 }
