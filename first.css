@@ -71,7 +71,7 @@ button{
   color: #efefef;
   vertical-align: middle;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-decoration: none;
@@ -92,7 +92,7 @@ button{
 	  align-self: center;
 	  font-family: 'Ubuntu', sans-serif;
 	  font-size: 1.3vw;
-	  font-weight: 400;
+	  font-weight: 700;
 	  line-height: 1;
 	  margin: 4vh;
 	  padding: 1.2em 2.8em;
@@ -262,74 +262,6 @@ text-decoration-line: none;
 .nodecor a:active {
     color: #ffffff;
 }
-/* End Misc */
-/* Media Queries / Mobile Optimization */
-@media only screen and (max-width: 750px) {
-    .sbs{
-	    flex-direction: column !important;
-			align-items: center;
-		}
-		.laserBtn{
-			 padding: 1.5em 5em;
-			 font-size: 4vw;
-		}
-		.vzb:hover {
-		 	transform: scale(1);
-		 	margin-left: 0vw;
-		 	margin-right: 0vw;
-		}
-		.amilogo{
-			width: 45%;
-		}
-		.firstTitle{
-			font-size: 18vw;
-		}
-		.firstF, .secondF, .thirdF{
-			height: 55vh;
-		}
-		.featureUnderline{
-			height: .3vh;
-			width: 35vw;
-		}
-		.paddingDivF{
-			flex-direction: column;
-		}
-		.featureHeader{
-			font-size: 7vw;
-		}
-		.featureDescription{
-			font-size: 5vw;
-		}
-		.footer{
-			height: 62vh;
-		}
-		.footerTextDiv{
-			display: flex;
-			flex-direction: column;
-		}
-		.footerText{
-			padding-bottom: 1.5vh;
-			padding-top: 1.5vh;
-		}
-		.copyrightP{
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  text-align: center;
-		  margin-top: 10vh;
-		  z-index: -1;
-		  font-family: 'Ubuntu';
-		  font-weight: 400;
-			align-items: flex-end;
-		}
-		.bigFooterDiv{
-			display: flex;
-			justify-content: center;
-			z-index: 1;
-			align-items: flex-end;
-		}
-}
-/* End Mobile Optimization */
 .gradientOne{
 	background: linear-gradient(to right, #70C2DA, #22C846);
 	width: 100%;
@@ -384,3 +316,87 @@ text-decoration-line: none;
 #upvoteCount{
 	text-align: right;
 }
+/* End Misc */
+/* Media Queries / Mobile Optimization */
+@media only screen and (max-width: 750px) {
+    .sbs{
+	    flex-direction: column !important;
+			align-items: center;
+		}
+		.laserBtn{
+			 padding: 1.5em 5em;
+			 font-size: 4vw;
+			 margin: 3vh;
+		}
+		.vzb:hover {
+		 	transform: scale(1);
+		 	margin-left: 0vw;
+		 	margin-right: 0vw;
+		}
+		.amilogo{
+			width: 45%;
+		}
+		.firstTitle{
+			font-size: 18vw;
+			z-index: 2;
+		}
+		.firstF, .secondF, .thirdF{
+			height: 55vh;
+		}
+		.featureUnderline{
+			height: .3vh;
+			width: 35vw;
+		}
+		.paddingDivF{
+			flex-direction: column;
+		}
+		.featureHeader{
+			font-size: 7vw;
+		}
+		.featureDescription{
+			font-size: 5vw;
+		}
+		.footer{
+			height: 62vh;
+		}
+		.footerTextDiv{
+			display: flex;
+			flex-direction: column;
+		}
+		.footerText{
+			padding-bottom: 1.5vh;
+			padding-top: 1.5vh;
+		}
+		.copyrightP{
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  text-align: center;
+		  margin-top: 10vh;
+		  z-index: -1;
+		  font-family: 'Ubuntu';
+		  font-weight: 400;
+			align-items: flex-end;
+		}
+		.bigFooterDiv{
+			display: flex;
+			justify-content: center;
+			z-index: 1;
+			align-items: flex-end;
+		}
+		.triangle{
+			visibility: hidden;
+		}
+		.amilogo{
+			margin-top: 10vh;
+		}
+		.gradientOne{
+			visibility: hidden;
+		}
+		.statsDiv{
+			visibility: visible;
+			padding: 4vh;
+			padding-top: 3vh;
+		}
+}
+/* End Mobile Optimization */
