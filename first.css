@@ -118,7 +118,7 @@ button{
 .paddingDivF{
 	display: flex;
 	padding: 4vh;
-	width: 75vw;
+	width: 90%;
 	text-align: center;
 	align-items: center;
 }
@@ -138,8 +138,12 @@ button{
 	height: 25vh;
 	background-color: white;
 	text-align: center;
-	margin: 2vh;
+	margin-top: 3vh;
 }
+.underlinePadding{
+
+}
+
 .firstF{
 	display: flex;
 	text-align: center;
