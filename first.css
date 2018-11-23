@@ -407,3 +407,22 @@ text-decoration-line: none;
 		}
 }
 /* End Mobile Optimization */
+.linearHover{
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+.linearHover a:link {
+    color: #ffffff;
+}
+.linearHover a:visited {
+    color: #ffffff;
+}
+.linearHover:hover {
+    color: #ffffff;
+    border-bottom: .04em solid;
+    transition: all 100ms ease-in-out;
+}
+.linearHover a:active {
+    color: #ffffff;
+}
