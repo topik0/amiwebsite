@@ -134,14 +134,12 @@ button{
 	padding-top: 2vh;
 }
 .featureUnderline{
-	width: 1vw;
+	width: 1%;
 	height: 25vh;
 	background-color: white;
-	text-align: center;
-	margin-top: 3vh;
 }
 .underlinePadding{
-
+	padding: 2vh;
 }
 
 .firstF{
@@ -351,7 +349,7 @@ text-decoration-line: none;
 		}
 		.featureUnderline{
 			height: .3vh;
-			width: 35vw;
+			width: 35%;
 		}
 		.paddingDivF{
 			flex-direction: column;
