@@ -31,7 +31,7 @@ fetch('https://discordbots.org/api/bots/490852867171942410')
   })
 .then(function(respJSON) {
   console.log(respJSON)
-  serverCount.innerHTML = respJSON.server_count +' Servers'
+  serverCount.innerHTML = respJSON.server_count + 5 +' Servers'
   upvoteCount.innerHTML = respJSON.points + ' Upvotes'
 })
 .catch(function(err) {
