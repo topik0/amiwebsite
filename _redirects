@@ -18,3 +18,6 @@
 
 /donate* https://donatebot.io/checkout/490867117478903809
 :splat 301!
+
+/organization-doc* https://docs.google.com/document/d/1B2KPGW1QvNcOa_fOFH6BuGzj7mFKDWka6E7aJIVVkMo
+:splat 301!
