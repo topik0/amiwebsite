@@ -271,8 +271,13 @@ text-decoration-line: none;
 }
 .templateTag{
 	font-size: 3.5vh;
-	position: absolute;
 	bottom: 0;
 	left: 0;
 	margin: 2vh;
+}
+.bottomWrapperDiv{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
 }
