@@ -175,7 +175,24 @@ justify-content: center;
 .footerTextDiv a:hover {
     font-size: 3.8vh;
 }
-
+.key{
+	top: 25vh;
+	background-color: #1c1c1c;
+	border: .2vh solid #111111;
+	color: white;
+	padding: 2vh;
+	font-size: 2vh;
+	width: 25%;
+	margin: 5vh auto 0px auto;
+	margin-bottom: -1.5vh;
+}
+.keyHeader{
+	margin-bottom: 1.5vh;
+	font-size: 2.5vh;
+}
+.keyMain{
+	margin-bottom: 1vh;
+}
 @media only screen and (max-width: 750px) {
   .footer{
     height: 62vh;
@@ -211,6 +228,13 @@ justify-content: center;
 	justify-content: center;
 	z-index: 1;
 		align-items: flex-end;
+	}
+	.key{
+		width: 67%;
+		text-align: center;
+	}
+	.keyDivider{
+		visibility: hidden;
 	}
 	.key{
 		width: 67%;
