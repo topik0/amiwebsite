@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800');
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,7 +55,7 @@ button{
 	align-items: center;
 	justify-content: center;
   flex-flow: wrap;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .cButton{
   display: flex;
@@ -65,7 +65,7 @@ button{
   transition: all 210ms ease-in-out;
   border: none;
   font-size: 3rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #111111;
   width: 320px;
 	margin-right: 4vw;
@@ -84,7 +84,7 @@ button{
   color: white;
   font-size: 95px;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 	width: 100%;
 	background-color: #1e1e1e;
   padding-top: 4vh;
@@ -122,8 +122,8 @@ button{
   padding-left: 1vw;
   padding-right: 1vw;
   text-align: center;
-	font-family: 'Ubuntu';
-	font-weight: 700;
+	font-family: 'Nunito Sans';
+	font-weight: 800;
 }
 
 .footerTextDiv a {
@@ -177,8 +177,7 @@ button{
 		text-align: center;
 		margin-top: 10vh;
 		z-index: -1;
-		font-family: 'Ubuntu';
-			align-items: flex-end;
+		align-items: flex-end;
 	}
 	.bigFooterDiv{
 	display: flex;
@@ -229,8 +228,8 @@ text-decoration-line: none;
   position: absolute;
   padding: 6vh;
 	z-index: -1;
-  font-family: 'Ubuntu';
-  font-weight: 700;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
 }
 .bigFooterDiv{
 display: flex;
