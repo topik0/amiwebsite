@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Ubuntu:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800');
+@font-face { font-family: Vision-Black; src: url('/fonts/Vision-Black.ttf'); }
 /* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -70,11 +72,12 @@ button{
   font-size: 6.5vw;
   color: #efefef;
   vertical-align: middle;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 700;
+  font-family: 'Vision-Black', sans-serif;
+  font-weight: 800;
   padding-top: 2vh;
   padding-bottom: 2vh;
   text-decoration: none;
+	text-shadow: 2px 2px 4px #000000;
 }
 .sbs{
   display: flex;
@@ -90,9 +93,9 @@ button{
 	  cursor: pointer;
 	  display: flex;
 	  align-self: center;
-	  font-family: 'Ubuntu', sans-serif;
+	  font-family: 'Nunito Sans', sans-serif;
 	  font-size: 1.3vw;
-	  font-weight: 700;
+	  font-weight: 800;
 	  line-height: 1;
 	  margin: 4vh;
 	  padding: 1.2em 2.8em;
@@ -123,12 +126,12 @@ button{
 	align-items: center;
 }
 .featureHeader{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 	font-size: 3.1vw;
-	font-weight: 700;
+	font-weight: 800;
 }
 .featureDescription{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.8vw;
 	font-weight: 300;
 	padding-top: 2vh;
@@ -209,8 +212,8 @@ button{
   padding-left: 1vw;
   padding-right: 1vw;
   text-align: center;
-	font-family: 'Ubuntu';
-	font-weight: 700;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
 }
 
 .footerTextDiv a {
@@ -228,8 +231,8 @@ button{
   position: absolute;
   padding: 6vh;
   z-index: -1;
-  font-family: 'Ubuntu';
-  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
 }
 .bigFooterDiv{
 display: flex;
@@ -378,8 +381,7 @@ text-decoration-line: none;
 		  text-align: center;
 		  margin-top: 10vh;
 		  z-index: -1;
-		  font-family: 'Ubuntu';
-		  font-weight: 400;
+		  font-weight: 600;
 			align-items: flex-end;
 		}
 		.bigFooterDiv{
