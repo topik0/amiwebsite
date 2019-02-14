@@ -89,6 +89,7 @@ button{
 	background-color: #1e1e1e;
   padding-top: 4vh;
   padding-bottom: 3vh;
+	text-shadow: 1px 1px 4px #000000;
 }
 .titleDiv {
     position: absolute;
@@ -97,6 +98,10 @@ button{
     margin: 0 auto !important;
 	  width: 100%;
 	  background-color: #1e1e1e;
+}
+.linearGradFour{
+	height: 4vh;
+	background: linear-gradient(#1e1e1e, black);
 }
 /* Footer */
 .footer {
